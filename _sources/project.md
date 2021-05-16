@@ -9,7 +9,7 @@ comparing different standards
 
 * What software will be utilized for the different project steps?
 
-Python
+Python, maybe R for statistical analysis
 
 * What computing environment will be utilized for the different project steps?
 
