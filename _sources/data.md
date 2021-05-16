@@ -8,6 +8,8 @@ data was searched in openneuro
 
 * How was the dataset obtained?
 
+data was recorded at the Meditation Research Institute (MRI) in Rishikesh, India
+
 * What kind of data was utilized within the project?
 
 open soure eeg data of an oddball task
@@ -17,6 +19,8 @@ open soure eeg data of an oddball task
 * How was the data organized?
 
 * What are the administrative and legal aspects of the data?
+
+The original project was approved by the local MRI Indian ethical committee and the ethical committee of the University of California San Diego (IRB project # 090731).
 
 * How will the data be archived, exchanged and published?
 
