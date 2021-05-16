@@ -8,6 +8,7 @@ preprocessing and analysis of EEG data, ERP
 comparing different standards
 
 * What software will be utilized for the different project steps?
+
 Python
 
 * What computing environment will be utilized for the different project steps?
