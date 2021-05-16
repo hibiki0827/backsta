@@ -3,14 +3,14 @@
 Please provide information concerning the dataset you utilized, as well as it's management plan.
 
 * How was the dataset search conducted?
-* 
-** data was searched in openneuro
+
+data was searched in openneuro
 
 * How was the dataset obtained?
 
 * What kind of data was utilized within the project?
-* 
-** open soure eeg data of an oddball task
+
+open soure eeg data of an oddball task
 
 * What kind of data was generated within the project?
 
