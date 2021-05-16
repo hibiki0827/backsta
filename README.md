@@ -12,7 +12,7 @@ Using a dataset of an auditory oddball task, I would like to investigate the sta
 
 Link to the data https://openneuro.org/datasets/ds003061/versions/1.0.1
 
-about the dataset:
+### about the dataset:
 
 Data collection took place at the Meditation Research Institute (MRI) in Rishikesh, India under the supervision of Arnaud Delorme, PhD.
 
