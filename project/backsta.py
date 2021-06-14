@@ -33,6 +33,28 @@ for i in range(13):
 
 print("\n","done","\n")
 
-
+# %%
 
 # %%
+subnum = "001"
+block = "01"
+events = mne.find_events(data[f"s{subnum}_b{block}"])  
+raw = data[f"s{subnum}_b{block}"]
+
+
+#%%
+raw.plot()
+
+epochs = mne.Epochs(raw, events, tmin=-0.3, tmax=0.7,
+                    preload=True)
+
+epochs.filter(l_freq=0.1, h_freq=None)
+fig = epochs.plot()
+
+print("done")
+
+# %%
+reject_criteria = dict(eeg=100e-6)  
+epochs.drop_bad(reject=reject_criteria)
+epochs.plot_drop_log()
+
