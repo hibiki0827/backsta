@@ -12,7 +12,7 @@ print("done", "\n")
 print("read data...","\n")
 
 data_path = "D:/Documents/Uni/Master/2.FS/project_work/data/ds003061-download"
-misc = ("EXG1", "EXG2", "EXG3", "EXG4", "EXG5", "EXG6", "EXG7", "EXG8")
+misc = ("EXG1", "EXG2", "EXG3", "EXG4", "EXG5", "EXG6", "EXG7", "EXG8", "Erg1", "Erg2", "Plet")
 exclude = ()
 data = {}
 
