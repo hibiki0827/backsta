@@ -54,7 +54,7 @@ fig = epochs.plot()
 print("done")
 
 # %%
-reject_criteria = dict(eeg=100e-6)  
+reject_criteria = dict(eeg=150e-6)  
 epochs.drop_bad(reject=reject_criteria)
 epochs.plot_drop_log()
 
