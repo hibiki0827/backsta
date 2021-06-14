@@ -1,4 +1,11 @@
-# week 10. 05. - 16. 05.
+## current status
+* preregistreation is done
+* I've read-in the EEG files
+* sub 06 block3 and sub 07 block 01 seem to be missing!
+* current status of script uploaded in Github "backsta.py"
+
+
+
 
 * updating readme.md
 * updating data.md
@@ -7,7 +14,7 @@
 * creating timeline in gitkarten
 * creating project in osf.io
 * looking for more literature
-* still to do: preregistration in osf.io   -> still not sure what the exact hypothesis is
+* preregistration in osf.io
 
 whiat I am thinking about right now:
 
