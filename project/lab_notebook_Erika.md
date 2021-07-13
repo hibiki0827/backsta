@@ -32,8 +32,9 @@
 * first and last repetition
 
 
+------------------------------------------------------------------
 
-
+## Notes
 * updating readme.md
 * updating data.md
 * updating dataaccess.md
@@ -43,9 +44,8 @@
 * looking for more literature
 * preregistration in osf.io
 
-------------------------------------------------------------------
 
-## Notes
+
 
 whiat I am thinking about right now:
 
