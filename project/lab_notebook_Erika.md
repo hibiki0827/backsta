@@ -21,7 +21,7 @@
 ## STEP4: Preprocessing - ICA
 * ICA templates for eye movements (vertical & horizontal) taken from sub 01
 * automatic detection with threshold 0.85
-* excluded components can be found in "excludedcomponents.csv"
+* excluded components can be found in "excludedcomp.csv" (can be found on github)
 * -> done
 
 ## STEP5: Analysis
