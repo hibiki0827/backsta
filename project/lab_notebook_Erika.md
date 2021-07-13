@@ -1,8 +1,35 @@
-## current status
-* preregistreation is done
-* I've read-in the EEG files
-* sub 06 block3 and sub 07 block 01 seem to be missing!
-* current status of script uploaded in Github "backsta.py"
+## STEP1: preparation
+* creating github account -> done
+* creating project in osf.io -> done
+* preregistreation -> done
+* updating readme.md
+* updating data.md
+* updating dataaccess.md
+
+
+## STEP2: looking at the data
+* read-in the EEG files -> done
+* sub 06 block3 and sub 07 block 01 seem to be missing!!
+
+## STEP3: Preprocessing - filtering
+* electrode Fp1 weird -> excluded
+* filter: l_freq=0.1, h_freq=50.0
+* reference: average
+* raw files saved 
+* -> all done
+
+## STEP4: Preprocessing - ICA
+* ICA templates for eye movements (vertical & horizontal) taken from sub 01
+* automatic detection with threshold 0.85
+* excluded components can be found in "excludedcomponents.csv"
+* -> done
+
+## STEP5: Analysis
+* dividing in epochs
+* standard
+* target
+* non_Target
+* first and last repetition
 
 
 
@@ -15,6 +42,10 @@
 * creating project in osf.io
 * looking for more literature
 * preregistration in osf.io
+
+------------------------------------------------------------------
+
+## Notes
 
 whiat I am thinking about right now:
 
