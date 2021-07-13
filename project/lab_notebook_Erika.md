@@ -1,3 +1,7 @@
+## Information
+* for details about dataset: look at data.md
+* details about analysis: look at analysis.md
+
 ## STEP1: preparation
 * creating github account -> done
 * creating project in osf.io -> done
