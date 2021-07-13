@@ -1,6 +1,6 @@
 ## Information
 * for details about dataset: look at data.md
-* details about analysis: look at analysis.md
+* details about analysis: look at project.md
 
 ## STEP1: preparation
 * creating github account -> done
