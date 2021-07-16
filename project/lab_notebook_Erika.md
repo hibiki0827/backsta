@@ -15,7 +15,7 @@
 * read-in the EEG files
 * sub 06 block3 and sub 07 block 01 seem to be missing!!
 * electrode Fp1 weird -> excluded!!
-* * probably Fp1 was on the wrong place somewhere posterior
+ * probably Fp1 was on the wrong place somewhere posterior
 
 ## STEP3: Preprocessing - filtering
 * filter: l_freq=0.1, h_freq=50.0
