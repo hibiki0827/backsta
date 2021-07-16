@@ -12,11 +12,12 @@
 
 
 ## STEP2: looking at the data
-* read-in the EEG files -> done
+* read-in the EEG files
 * sub 06 block3 and sub 07 block 01 seem to be missing!!
+* electrode Fp1 weird -> excluded!!
+** probably Fp1 was on the wrong place somewhere posterior
 
 ## STEP3: Preprocessing - filtering
-* electrode Fp1 weird -> excluded
 * filter: l_freq=0.1, h_freq=50.0
 * reference: average
 * raw files saved 
@@ -26,6 +27,7 @@
 * ICA templates for eye movements (vertical & horizontal) taken from sub 01
 * automatic detection with threshold 0.85
 * excluded components can be found in "excludedcomp.csv" (can be found on github)
+* some of the components could not be found vis the loop (the loop gave an error if only one of the two components exist) -> used templates by hand
 * -> done
 
 ## STEP5: Analysis
