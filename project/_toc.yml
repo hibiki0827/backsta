@@ -4,7 +4,6 @@ numbered: true
 parts:
 - caption: Project
   chapters:
-  - file: index
   - file: overview
   - file: project
   - file: data
