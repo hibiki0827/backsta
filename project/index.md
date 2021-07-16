@@ -17,14 +17,13 @@ Pleae visit this page again in the next feew weeks for further information.
 
 # Welcome!
 
-Please write a nice welcome message here, maybe with links to the overview, etc. .
-Also include information what readers/users see here, how to navigate the site, as
-well as the different possibilities with regard to interoperability.  
+Welcome to the backsta project.
+This project is part of the Seminar methodogical working in neuroscience in the Masters program cognitive and integrative system neuroscience at Marburg University.
 
 ## What's all this now?
 
-Please provide general information and motivation here, as well as links to the
-specific sections.
+The aim of this project is to focus on the "repetition positivity" which is a slow positive wave from 5 - 250ms SOT inceasing with standard stimulus repetition. 
+It represents the suppression of prediction error resulting by higher sensory levels providing prediction signal to lower levels (). It is the correspondance of the mismach negativity.
 
 The project includes the following parts:
 
@@ -70,5 +69,4 @@ The project includes the following parts:
 
 ## I've got a question!
 
-Provide information on how readers/users can get in contact with you, ask questions,
-report issues, etc. .
+If you have any questions, feel free to contact me from on the Github page of backsta :)
