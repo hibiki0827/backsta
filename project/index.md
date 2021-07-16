@@ -23,7 +23,7 @@ This project is part of the Seminar methodogical working in neuroscience in the 
 ## What's all this now?
 
 The aim of this project is to focus on the "repetition positivity" which is a slow positive wave from 5 - 250ms SOT inceasing with standard stimulus repetition. 
-It represents the suppression of prediction error resulting by higher sensory levels providing prediction signal to lower levels (). It is the correspondance of the mismach negativity.
+It represents the suppression of prediction error resulting by higher sensory levels providing prediction signal to lower levels. It is the correspondance of the mismach negativity. The question is how the repetition positivity changes before and after being confronted with an oddball. 
 
 The project includes the following parts:
 
