@@ -6,7 +6,7 @@ includehidden: true
 titlesonly: true
 ---
 ```
-**Add a logo graphic for your project here.**
+**BACKSTA**
 
 ```{admonition} About the content of this Jupyter Book
 :class: warning
