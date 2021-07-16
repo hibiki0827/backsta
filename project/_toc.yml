@@ -1,11 +1,17 @@
-- file: index
-- file: overview
-- file: project
-- file: data
-- file: pre_registration
-- file: lab_notebook
-- file: data_analyses
-- file: results
-- file: poster_manuscript
-- file: data_access
-- file: CoC
+root: index
+format: jb-book
+numbered: true
+parts:
+- caption: Project
+  chapters:
+  - file: index
+  - file: overview
+  - file: project
+  - file: data
+  - file: pre_registration
+  - file: lab_notebook
+  - file: data_analyses
+  - file: results
+  - file: poster_manuscript
+  - file: data_access
+  - file: CoC
