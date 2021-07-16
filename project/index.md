@@ -29,39 +29,21 @@ The project includes the following parts:
 
 * [Overview & motivation]()
 
-   You can put an informative one-liner here.
-
 * [Project outline & management plan]()
-
-   You can put an informative one-liner here.
 
 * [Dataset & management plan]()
 
-   You can put an informative one-liner here.
-
 * [Pre-registration]()
 
-   You can put an informative one-liner here.
-
 * [Open lab notebook]()
-
-   You can put an informative one-liner here.   
       
 * [Data analyses]()
-
-   You can put an informative one-liner here.
    
 * [Results & outcomes]()
 
-   You can put an informative one-liner here.
-
 * [Poster & manuscript]()
 
-   You can put an informative one-liner here.
-
 * [Data access]()
-
-   You can put an informative one-liner here.
 
 * [Code of Conduct](https://g0rella.github.io/gorella_overview/CoC.html)
 
