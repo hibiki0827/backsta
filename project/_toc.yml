@@ -1,6 +1,5 @@
 root: index
 format: jb-book
-parts:
 chapters:
 - file: overview
 - file: project
