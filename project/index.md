@@ -2,18 +2,6 @@
 ```{toctree}
 ---
 hidden: true
-includehidden: true
-titlesonly: true
----
-```
-**BACKSTA**
-
-```{admonition} About the content of this Jupyter Book
-:class: warning
-This page is currently under construction and will be updated continiously.
-Pleae visit this page again in the next feew weeks for further information.
-```
-**Add your zenodo badge here.***
 
 # Welcome!
 
