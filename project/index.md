@@ -1,8 +1,4 @@
 
-```{toctree}
----
-hidden: true
-
 # Welcome!
 
 Welcome to the backsta project.
