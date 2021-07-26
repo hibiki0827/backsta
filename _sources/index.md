@@ -1,5 +1,5 @@
 
-# Welcome!!!!
+# Welcome!
 
 Welcome to the backsta project.
 This project is part of the Seminar methodogical working in neuroscience in the Masters program cognitive and integrative system neuroscience at Marburg University.
