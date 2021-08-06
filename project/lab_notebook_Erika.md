@@ -10,7 +10,6 @@
 * updating data.md
 * updating dataaccess.md
 
-
 ## STEP2: looking at the data
 * read-in the EEG files
 * sub 06 block3 and sub 07 block 01 seem to be missing!!
@@ -36,11 +35,23 @@
 * target
 * non_Target
 * first and last repetition
+* subject 12 block 01 wiéird electrode?? weird plots -> excluded
+* grand averages -> done
+* difference waves: target-standard, first&last repetition
+
+## STEP6: Poster & Jupyter notebook
+* creating jupyter notebook out of github account -> problem: wrong page is displayed -> SOLVED
+* updating github pages
+* updating osf.io
+* making poster
+
 
 
 ------------------------------------------------------------------
 
 ## Notes
+
+
 * updating readme.md
 * updating data.md
 * updating dataaccess.md
@@ -69,8 +80,4 @@ problem: what should I expect for the standard right after the Deviant
 * one version: RP increases with repetiton ->  does not only depend on the last stimulus -> there could be an decrease but according to the pattern before the deviant the standard is still somehow expected
 * another version: the deviant makes the brain reset the prediction -> no repetition positivity should be seen
 
-# test
 
-## test
-
-### test
