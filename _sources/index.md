@@ -11,23 +11,23 @@ It represents the suppression of prediction error resulting by higher sensory le
 
 The project includes the following parts:
 
-* [Overview & motivation]()
+* [Overview & motivation](https://hibiki0827.github.io/backsta/overview.html)
 
-* [Project outline & management plan]()
+* [Project outline & management plan](https://hibiki0827.github.io/backsta/project.html)
 
-* [Dataset & management plan]()
+* [Dataset & management plan](https://hibiki0827.github.io/backsta/data.html)
 
-* [Pre-registration]()
+* [Pre-registration](https://hibiki0827.github.io/backsta/pre_registration.html)
 
-* [Open lab notebook]()
+* [Open lab notebook](https://hibiki0827.github.io/backsta/lab_notebook_Erika.html)
       
-* [Data analyses]()
+* [Data analyses](https://hibiki0827.github.io/backsta/data_analyses.html)
    
-* [Results & outcomes]()
+* [Results & outcomes](https://hibiki0827.github.io/backsta/results.html)
 
-* [Poster & manuscript]()
+* [Poster & manuscript](https://hibiki0827.github.io/backsta/poster_manuscript.html)
 
-* [Data access]()
+* [Data access](https://hibiki0827.github.io/backsta/data_access.html)
 
 * [Code of Conduct](https://g0rella.github.io/gorella_overview/CoC.html)
 
