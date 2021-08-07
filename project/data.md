@@ -1,4 +1,6 @@
-# data
+# Dataset & management plan
+
+## data
 
 * data was searched in openneuro
 * open soure eeg data of an oddball task
