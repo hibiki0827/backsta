@@ -1,3 +1,5 @@
+# Lab notebook
+
 ## Information
 * for details about dataset: look at data.md
 * details about analysis: look at project.md
