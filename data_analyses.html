@@ -230,11 +230,35 @@
   <a class="reference internal nav-link" href="#overview">
    Overview
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#filtering">
+     1. filtering
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ica">
+     2. ICA
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#averaging">
+     3. averaging
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#outcomes">
    Outcomes
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ica-components">
+     ICA components
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -252,12 +276,33 @@
 <p>Provide readers/users with a general outline of the conducted analyses and corresponding outcomes.</p>
 <div class="section" id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
-<p>Provide information concerning the different analysis parts, as well as links to respective notebooks.</p>
+<div class="section" id="filtering">
+<h3>1. filtering<a class="headerlink" href="#filtering" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>exclude Fp1 -&gt; bad channel</p></li>
+<li><p>filtering data with: low freq: 1Hz, high freq: 50Hz</p></li>
+<li><p>eeg reference: “average”</p></li>
+</ul>
+</div>
+<div class="section" id="ica">
+<h3>2. ICA<a class="headerlink" href="#ica" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>fit ica on a copy of the data</p></li>
+<li><p>ica ran with 15 components</p></li>
+<li><p>take blink templates from participant 01 block 01</p></li>
+<li><p>automatic detection and exclusion of blink component -&gt; threshold 0.85</p></li>
+</ul>
+</div>
+<div class="section" id="averaging">
+<h3>3. averaging<a class="headerlink" href="#averaging" title="Permalink to this headline">¶</a></h3>
+</div>
 </div>
 <div class="section" id="outcomes">
 <h2>Outcomes<a class="headerlink" href="#outcomes" title="Permalink to this headline">¶</a></h2>
-<p>Provide information concerning the outcomes of the different analysis parts, as well as links to further
-details on data access.</p>
+<div class="section" id="ica-components">
+<h3>ICA components<a class="headerlink" href="#ica-components" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://github.com/hibiki0827/backsta/files/6950452/comp_plots.pdf">comp_plots.pdf</a></p>
+</div>
 </div>
 </div>
 
