@@ -1,6 +1,16 @@
 # Data analyses
 
-Provide readers/users with a general outline of the conducted analyses and corresponding outcomes.
+## general information
+
+* main analysis:
+  * mne python
+* other packages used:
+  * os
+  * numpy as np
+  * pandas
+  * matplotlib.pyplot
+  * csv
+  * pickle
 
 ## Overview
 
