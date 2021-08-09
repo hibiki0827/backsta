@@ -30,7 +30,28 @@
 
 ### 3. averaging
 
+* making epochs based on events
+* events taken into account:
+  *  standard
+  *  target 
+  *  non target
+* other events
+  *  response 
+  *  no response
+* conditions:
+  * standard
+  * target
+  * non target
+  * firt repetition after deviant
+  * last repetition after deviant
+* averages made for each participant in each condition 
+* grand average calculated and plotted
+
 ## Outcomes
+
+### csv excluded components
+
+[list](https://github.com/hibiki0827/backsta/blob/master/project/excludedcomp.csv)
 
 ### ICA components
 
