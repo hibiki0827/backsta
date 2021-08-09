@@ -57,5 +57,9 @@
 
 [comp_plots.pdf](https://github.com/hibiki0827/backsta/files/6950452/comp_plots.pdf)
 
+## Script
+
+[analysis script](https://github.com/hibiki0827/backsta/blob/master/project/backsta.py)
+
 
 
