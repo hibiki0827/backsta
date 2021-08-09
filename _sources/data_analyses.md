@@ -1,5 +1,7 @@
 # Data analyses
 
+for details please download the [script](https://github.com/hibiki0827/backsta/blob/master/project/backsta.py)
+
 ## general information
 
 * main analysis:
@@ -15,18 +17,26 @@
 ## Overview
 
 
-### 1. filtering
+### 1. reading in the data & filtering
 
-* exclude Fp1 -> bad channel
+* montage: standard 10 -20 system
+* 64 electrodes + misc -> misc channels excluded
+* subject names : 001 - 013
+* blocks 01 - 03
+* exclude Fp1 -> bad channel - Fp1 seemed to be locaded at a wrong position (somewhere posterior)
 * filtering data with: low freq: 1Hz, high freq: 50Hz 
-* eeg reference: "average"
+* eeg reference set to "average"
+* filtered data was saved as "s{subnum}_b{block}-raw.fif"
 
 ### 2. ICA
 
 * fit ica on a copy of the data
 * ica ran with 15 components
-* take blink templates from participant 01 block 01
-* automatic detection and exclusion of blink component -> threshold 0.85
+* ICA saved as: "s{subnum}_b{block}-ica.fif"
+* take blink templates from participant 01 block 01  (vertical and horizontal eye movements)
+* automatic detection and labeling of blink components using corrmap -> threshold 0.85
+* appyling the ica
+* data with applied ICA saved as "s{subnum}_b{block}-raw.fif" in a different folder than the filtered raw data
 
 ### 3. averaging
 
@@ -44,8 +54,9 @@
   * non target
   * firt repetition after deviant
   * last repetition after deviant
-* averages made for each participant in each condition 
-* grand average calculated and plotted
+* averages made for each participant in each condition  and saved into dictionaries
+* averages were turned into lists and saved using pickle
+* grand average calculated and plotted using mne.grand_average
 
 ## Outcomes
 

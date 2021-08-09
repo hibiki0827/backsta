@@ -237,8 +237,8 @@
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#filtering">
-     1. filtering
+    <a class="reference internal nav-link" href="#reading-in-the-data-filtering">
+     1. reading in the data &amp; filtering
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -288,6 +288,7 @@
                 
   <div class="section" id="data-analyses">
 <h1>Data analyses<a class="headerlink" href="#data-analyses" title="Permalink to this headline">¶</a></h1>
+<p>for details please download the <a class="reference external" href="https://github.com/hibiki0827/backsta/blob/master/project/backsta.py">script</a></p>
 <div class="section" id="general-information">
 <h2>general information<a class="headerlink" href="#general-information" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
@@ -310,12 +311,17 @@
 </div>
 <div class="section" id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="filtering">
-<h3>1. filtering<a class="headerlink" href="#filtering" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="reading-in-the-data-filtering">
+<h3>1. reading in the data &amp; filtering<a class="headerlink" href="#reading-in-the-data-filtering" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>exclude Fp1 -&gt; bad channel</p></li>
+<li><p>montage: standard 10 -20 system</p></li>
+<li><p>64 electrodes + misc -&gt; misc channels excluded</p></li>
+<li><p>subject names : 001 - 013</p></li>
+<li><p>blocks 01 - 03</p></li>
+<li><p>exclude Fp1 -&gt; bad channel - Fp1 seemed to be locaded at a wrong position (somewhere posterior)</p></li>
 <li><p>filtering data with: low freq: 1Hz, high freq: 50Hz</p></li>
-<li><p>eeg reference: “average”</p></li>
+<li><p>eeg reference set to “average”</p></li>
+<li><p>filtered data was saved as “s{subnum}_b{block}-raw.fif”</p></li>
 </ul>
 </div>
 <div class="section" id="ica">
@@ -323,8 +329,11 @@
 <ul class="simple">
 <li><p>fit ica on a copy of the data</p></li>
 <li><p>ica ran with 15 components</p></li>
-<li><p>take blink templates from participant 01 block 01</p></li>
-<li><p>automatic detection and exclusion of blink component -&gt; threshold 0.85</p></li>
+<li><p>ICA saved as: “s{subnum}_b{block}-ica.fif”</p></li>
+<li><p>take blink templates from participant 01 block 01  (vertical and horizontal eye movements)</p></li>
+<li><p>automatic detection and labeling of blink components using corrmap -&gt; threshold 0.85</p></li>
+<li><p>appyling the ica</p></li>
+<li><p>data with applied ICA saved as “s{subnum}_b{block}-raw.fif” in a different folder than the filtered raw data</p></li>
 </ul>
 </div>
 <div class="section" id="averaging">
@@ -353,8 +362,9 @@
 <li><p>last repetition after deviant</p></li>
 </ul>
 </li>
-<li><p>averages made for each participant in each condition</p></li>
-<li><p>grand average calculated and plotted</p></li>
+<li><p>averages made for each participant in each condition  and saved into dictionaries</p></li>
+<li><p>averages were turned into lists and saved using pickle</p></li>
+<li><p>grand average calculated and plotted using mne.grand_average</p></li>
 </ul>
 </div>
 </div>
