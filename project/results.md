@@ -23,11 +23,15 @@ The behavior of the repetition positivity after a deviant could:
 
 ![DW_lr_fr](https://user-images.githubusercontent.com/73951037/128669119-4a490364-f192-4f57-ac34-3ccb1c20f553.png)
 
+
 no difference could be found. Also in the Grandaverage standard there is no component looking like a repetition positivity.
 As no repetition positivity could be found, I can not analyze the second hypothesis
 
+
 Grandaverage standard
 ![ga_sta](https://user-images.githubusercontent.com/73951037/128669193-fc925f32-e5ef-48dc-8090-e1a02f6c6f46.png)
+
+
 
 Grandaverage last repetition
 ![ga_lr](https://user-images.githubusercontent.com/73951037/128816779-a83d48f1-a7e8-4d6c-a3a7-0443ac7fcdf4.png)
