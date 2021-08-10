@@ -29,11 +29,13 @@ As no repetition positivity could be found, I can not analyze the second hypothe
 
 
 Grandaverage standard
+
 ![ga_sta](https://user-images.githubusercontent.com/73951037/128669193-fc925f32-e5ef-48dc-8090-e1a02f6c6f46.png)
 
 
 
 Grandaverage last repetition
+
 ![ga_lr](https://user-images.githubusercontent.com/73951037/128816779-a83d48f1-a7e8-4d6c-a3a7-0443ac7fcdf4.png)
 
 
@@ -57,17 +59,22 @@ Some electrodes of some participants were still noisy
 
 
 Grandaverage standard
+
 ![ga_sta](https://user-images.githubusercontent.com/73951037/128669193-fc925f32-e5ef-48dc-8090-e1a02f6c6f46.png)
 
 
 Grandaverage target
+
 ![ga_tar](https://user-images.githubusercontent.com/73951037/128669213-f82a0f9a-028e-4375-a9f2-c32eaced9aad.png)
 
 
 Grandaverage non target
+
 ![ga_nontar](https://user-images.githubusercontent.com/73951037/128669244-c8e831f4-282a-4cc1-8097-9f8e8aa3af1f.png)
 
+
 Grandaverage first repetition
+
 ![ga_fr](https://user-images.githubusercontent.com/73951037/128816817-2cd2ecea-9265-4a7f-bbf4-30743126e9cf.png)
 
 
