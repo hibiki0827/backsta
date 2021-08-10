@@ -1,3 +1,3 @@
 # Preregistration
 
-osf link: 
+osf link to the project: https://osf.io/drtq5/
