@@ -26,6 +26,9 @@ Step 4: Poster, Jupyter notebook etc.
 * making the poster
 * completing the jupyter notebook
 
+![timeline](https://user-images.githubusercontent.com/73951037/129143999-c061cf28-6a04-42d8-a643-902f8d1bf513.png)
+
+
 
 ### What software will be utilized for the different project steps?
 
